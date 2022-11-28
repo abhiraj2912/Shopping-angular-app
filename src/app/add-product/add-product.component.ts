@@ -11,6 +11,12 @@ export class AddProductComponent {
   description=""
   category=""
   image=""
-  
 
-}
+  readValues=()=>
+  {
+    let data={"title":this.title,"price":this.price,"description": this.description,"category":this.category,"image":this.image}
+    console.log(data)
+  }
+
+  }
+
